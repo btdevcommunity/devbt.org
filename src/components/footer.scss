@@ -1,0 +1,48 @@
+.line-break {
+    margin:0 20px;
+    border: 12px solid #E69538;
+
+}
+.footer {
+    margin-left:20px;
+    margin-right: 20px;
+    background-color: #122B4D;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    .footer-head {
+        font-size: 36px;
+        font-weight: 600;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-solgan {
+        margin-top: 10px;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .socials {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 35%;
+        margin-right: 35%;
+            
+        .social-icon {
+            height: 55px;
+            width: 55px;
+        }
+        
+    }
+}

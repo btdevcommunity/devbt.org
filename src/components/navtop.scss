@@ -1,0 +1,45 @@
+.navtop {
+    width: 100%;
+    height: 70px;
+    color: white;
+    background-color: #122B4D;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: Roboto Mono,monospace;
+
+    
+    .topleft {
+        flex: 4;
+        .logo {
+            height: 60px;
+            width: 80px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+    .topcenter {
+        flex: 6;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .topright {
+        flex: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .topright-items {
+            margin-left: 10px;
+            font-size: larger;
+            font-weight: 600;
+            cursor: pointer;
+
+            &:hover {
+                color: black;
+                background-color: white;
+                padding: 4px;
+            }
+        }
+    }
+}

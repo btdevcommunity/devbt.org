@@ -1,0 +1,22 @@
+.error-page{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .error-title{
+        font-size: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: tomato;
+    }
+
+    .error-message{
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
