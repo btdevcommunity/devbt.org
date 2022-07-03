@@ -1,13 +1,17 @@
 .items {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 80px;
+    justify-content: center;
+    margin-top: 90px;
+    margin-right: 20px;
+    margin-left: 20px;
     .items-box {
         background-color: #122B4D;
         height: 300px;
         width: 419px;
         border-radius: 15%;
+        margin-right: 10px;
+        
         .title {
             color: #E69538;
             font-size: larger;
@@ -19,10 +23,10 @@
         }
         
         .items-circle {
-            margin-left: 26%;
+            margin-left:26%;
             background-color:white;
-            height: 171px;
-            width: 171px;
+            min-height: 171px;
+            max-width: 171px;
             border-radius: 50% ;
             border: 8px solid #122B4D;
             margin-top: -80px;
@@ -122,4 +126,13 @@
     }
 
     
+}
+
+@media only screen and (min-width: 359px) and (max-width: 829px) and (-webkit-min-device-pixel-ratio: 1) {
+    .items {
+        flex-direction: column;
+        .items-box {
+            margin-bottom: 90px;
+        }
+    }
 }
