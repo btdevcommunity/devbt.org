@@ -1,5 +1,6 @@
 {
   "name": "devbt.org",
+  "homepage": "https://devbt.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
